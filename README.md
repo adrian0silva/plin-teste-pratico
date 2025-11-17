@@ -1,4 +1,4 @@
-# Teste Técnico Desenvolvedor Backend
+# Teste Técnico Desenvolvedor Backend — PLIN Energia
 
 ## Estrutura do Projeto
 
