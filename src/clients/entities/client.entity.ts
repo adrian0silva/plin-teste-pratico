@@ -1,4 +1,4 @@
-import { Document } from 'src/documents/entities/document.entity';
+import { Document } from '../../documents/entities/document.entity';
 import {
   Column,
   CreateDateColumn,
