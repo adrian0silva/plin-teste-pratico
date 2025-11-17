@@ -9,7 +9,7 @@
   - **`app.module.ts`**: O módulo raiz da aplicação.
   - **`main.ts`**: O ponto de entrada da aplicação.
 - **`test`**: Contém os arquivos de teste.
-- **`scripts`**: Inclui scripts adicionais para automação ou gerenciamento de banco de dados.
+- **`scripts`**: Contém scripts auxiliares em Python para web scraping e leitura de PDFs..
 - **`node_modules`**: Armazena todas as dependências do projeto.
 - **`dist`**: Contém o código JavaScript compilado.
 - **`coverage`**: Armazena os relatórios de cobertura de código.
@@ -60,3 +60,16 @@ Este projeto inclui uma coleção do Postman para ajudá-lo a testar a API. Voc�
 2. Clique no botão "Import".
 3. Selecione o arquivo `Teste pratico API Plin.postman_collection.json` da raiz do projeto.
 4. A coleção será importada e você poderá começar a fazer requisições para a API.
+
+### Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+PORT=3000
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+DB_DATABASE=testdb
+```
